@@ -85,7 +85,7 @@
 
 <body>
     <div class="calculator">
-    <h2>Calculadora Básica Teste</h2>
+        <h2 align="center">Calculadora Básica</h2>
         <input type="text" id="display" readonly>
         <div class="buttons">
             <button class="clear" onclick="clearDisplay()">C</button>
@@ -140,7 +140,7 @@
 
         // Suporte para teclado
         document.addEventListener('keydown', function(event) {
-            const key = event.key; 
+            const key = event.key;
 
             if (key >= '0' && key <= '9' || key === '.') {
                 appendToDisplay(key);

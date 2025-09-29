@@ -14,6 +14,7 @@
             min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            color: #fff;
         }
 
         .calculator {
@@ -84,6 +85,7 @@
 
 <body>
     <div class="calculator">
+    <h2>Calculadora Básica Teste</h2>
         <input type="text" id="display" readonly>
         <div class="buttons">
             <button class="clear" onclick="clearDisplay()">C</button>

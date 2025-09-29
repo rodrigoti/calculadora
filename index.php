@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Básica</title>
+    <title>Calculadora Básica Teste</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -138,7 +138,7 @@
 
         // Suporte para teclado
         document.addEventListener('keydown', function(event) {
-            const key = event.key;
+            const key = event.key; 
 
             if (key >= '0' && key <= '9' || key === '.') {
                 appendToDisplay(key);
